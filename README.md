@@ -1,7 +1,7 @@
 
-# ici-agent（Ascentium 销售助手）
+# ici-agent（销售助手）
 
-一个围绕 Ascentium 销售场景的本地工作空间，用于：
+一个围绕 A记 销售场景的本地工作空间，用于：
 - 管理越南 / 东南亚相关的知识库（`knowledge/`）
 - 通过自定义技能（`/.cursor/skills`）辅助销售准备会议、产出话术与文档
 - 将 `output/` 下的交付物按主题归档，并可一键打包发送邮件
@@ -11,7 +11,7 @@
 - `knowledge/`：内部知识文档（如越南设厂、园区对比、沟通技巧等）
 - `output/`：对外交付物与会议材料（按「日期-主题」建子目录，不纳入 Git 管理）
 - `.cursor/skills/`：
-  - `ascentium-sales-enablement/`：销售赋能总控 Skill，负责拆任务、分派和质检
+  - `sales-enablement/`：销售赋能总控 Skill，负责拆任务、分派和质检
   - `trusted-sources/`：统一定义可信信息源（Knowledge、Neo4j、Asia Briefing 等）
   - `output-zip-email/`：将某个 `output/<主题>/` 文件夹压缩并发送到指定邮箱
 

@@ -1,5 +1,5 @@
 ---
-name: ascentium-sales-enablement
+name: sales-enablement
 description: Ascentium sales enablement orchestrator. Sets objectives, decomposes tasks into Todos, delegates execution to subagents (knowledge retrival with trusted-sources、drafting、write document etc.), then acts as gatekeeper for QC and final deliverable. Fuses sales psychology into planning. When context is thin, probes the user (sales) with focused questions first before giving recommendations (diagnostic-before-prescription). Requires intent explanation and knowledge-backing for every action recommendation. Outputs client-ready materials as separate files in the same Output/<topic>/ folder. Use for Ascentium-related client/opportunity discussions, proposals, and research.
 ---
 
