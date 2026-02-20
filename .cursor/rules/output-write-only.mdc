@@ -1,0 +1,11 @@
+---
+description: output 目录为只写；Agent 与 Skill 不得从 output/ 读取内容
+alwaysApply: true
+---
+
+# Output 目录：只写，不读
+
+- **Output/** 是项目的**输出目录**，用于存放交付物、研究留痕、方案与文档草稿等。
+- **禁止**从 `output/` 下读取任何文件作为输入或上下文。Agent 与所有 Skill 不得使用 Read、Grep、Glob 等工具针对 `output/` 做检索或读取。
+- 对 output 的唯一操作是**写入**：按任务要求创建或更新 `output/<主题>/YYYY-MM-DD-描述.md` 等文件。
+- 需要输入或事实依据时，只使用：**knowledge/**、**Neo4j 图**、**Asia Briefing**（参见 trusted-sources），不得引用 output 中的内容作为来源。
